@@ -5,79 +5,76 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+header {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+    padding-right: 20px;
+    box-sizing: content-box;
+    border-right: 1px solid #e7e7e7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px 0px;
+}
+
+a:hover {
+    background-color: #d3d3d3;
+    opacity: 0.7;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
 main {
     width: 80%;
-    margin:25px auto;
+    margin: auto;
 }
 
-.header1 {
-    display: table;
-    margin-left: 10%;
-    border-right: 1px solid #e5e5e5;
+.Section1 {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-header img {
-    width: 50%;
-}
-
-.firstSection {
-    margin: 25px auto;
-}
-
-.contenitoreBanner {
-    width: 100%;
-    background-color: lawngreen;
-}
-
-.bannerImage {
+.Banner1 {
     object-fit: cover;
-}
-
-.secondSection {
-    background-color: #0086ff;
-    margin-bottom: 10px;
-}
-
-.secondSection div {
-    background-color: #abcfe7;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.barraAlto {
     width: 100%;
-    background-color: #abcfe7;
+    height: 600px;
+    border-radius: 15px;
+    filter: brightness(0.8);
 }
 
-.sidebarSinistra {
-    width: 30%;
+h1 {
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+    width: 70%;
+    font-weight: 350;
+    text-align: left;
+    font-size: 40px;
+    line-height: 45px;
 }
 
-.middleContainer {
-    width: calc(40% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+h2 {
+    position: absolute;
+    width: 50%;
+    bottom: 90px;
+    left: 30px;
+    font-weight: 300;
+    text-align: left;
 }
-
-.sidebarDestra {
-    width: 30%;
-}
-
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: left;
-}
-
-footer {
-    background-color: #8801fe;
-    width: 100%;
-    height: 50px;
-}
-/*#e579e6
-#e1d67a
-#abcfe7
-#0086ff
-#8801fe
-*/
