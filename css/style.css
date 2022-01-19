@@ -11,9 +11,15 @@ main {
 
 .header1 {
     width: 80%;
-    background-color: #e579e6;
-    height: 100px;
     margin: auto;
+    border: 1px solid grey;
+}
+
+.header1::after {
+    content: "a";
+    display: inline-block;
+    width: 60%;
+    background-color: chartreuse;
 }
 
 .firstSection {
@@ -25,7 +31,6 @@ main {
 
 .secondSection {
     background-color: #0086ff;
-    height: 600px;
     margin-bottom: 10px;
 }
 
@@ -46,7 +51,7 @@ main {
 }
 
 .middleContainer {
-    width: 38%;
+    width: calc(40% - 20px);
     margin-left: 10px;
     margin-right: 10px;
 }
