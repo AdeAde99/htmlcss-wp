@@ -10,22 +10,19 @@ main {
 }
 
 .header1 {
-    width: 80%;
-    margin: auto;
-    border-right: 1px solid grey;
-}
-
-.header1::after {
-    content: "a";
-    display: inline-block;
-    width: 60%;
-    background-color: chartreuse;
+    display: table;
+    margin-left: 10%;
+    padding-right: 10px;
+    border-right: 1px solid #e5e5e5;
 }
 
 .firstSection {
-    background-color: #e1d67a;
-    height: 400px;
     margin: 25px auto;
+}
+
+.bannerImage {
+    object-fit: cover;
+    height: 600px;
     width: 100%;
 }
 
